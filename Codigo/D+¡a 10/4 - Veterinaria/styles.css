@@ -1,0 +1,58 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Título centrado */
+.Titulo {
+    background-color: #4CAF50;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+/* Estilo para cada div de botones */
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para la lista de animales */
+#ListaAnimales {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+#ListaAnimales li {
+    background-color: #ffffff;
+    margin: 8px 0;
+    padding: 10px 15px;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
